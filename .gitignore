@@ -1,9 +1,43 @@
+### FICHIERS OU DOSSIERS SPECIFIQUES A IGNORER ###
+
+# Ignorer tout dans 02_donnees et 03_exports
+02_donnees/Donnees_confidentielles.txt
+02_donnees/*
+03_exports/*
+
+# Ne pas ignorer le dossier lui-même pour conserver sa structure
+!02_donnees/
+!03_exports/
+
+# Inclure le sous-dossier donnees_publiques et ses fichiers
+!02_donnees/donnees_partageables/
+!02_donnees/donnees_partageables/*
+
+# Ne pas ignorer les "Lisez-moi.txt" dans les sous-dossiers 
+!02_donnees/Lisez-moi.txt
+!02_donnees/donnees_partageables/Lisez-moi.txt
+!02_donnees/donnees_non_partageables/Lisez-moi.txt
+!03_exports/Lisez-moi.txt
+!03_exports/donnees/Lisez-moi.txt
+!03_exports/figures/Lisez-moi.txt
+
+# Ignorer tout dans donnees_non_partageables mais garder le dossier
+02_donnees/donnees_non_partageables/*
+!02_donnees/donnees_non_partageables/
+!02_donnees/donnees_non_partageables/.gitkeep
+
+
+
+### CI DESSOUS LE MODELE GITIGNORE POUR R PROPOSE PAR GITHUB ###
+
+# ---> R
 # History files
 .Rhistory
 .Rapp.history
 
 # Session Data files
 .RData
+*.RData
 .RDataTmp
 
 # User-specific files
