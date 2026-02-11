@@ -1,0 +1,20 @@
+Dossier 02_donnees
+
+Ici, placez toutes vos données brutes ou de référence nécessaires au projet !
+
+*** Consignes et Bonnes Pratiques ***
+
+Données ignorées par Git : Par défaut, toutes les données dans ce dossier sont ignorées par Git (grâce au fichier .gitignore). Elles n'apparaîtront donc PAS dans Gitea. Cela est intentionnel, car Gitea est conçu pour sauvegarder, centraliser, et partager le code, pas les données brutes qui peuvent être volumineuses ou sensibles.
+Il peut être intéressant d'indiquer, dans vos scripts, ou trouver les données, et à qui en demander l'accès ! Faites le !
+
+*** Organisation Partageable et Non-partageable : ***
+
+Si certaines données sont non sensibles et essentielles au bon fonctionnement du code (par exemple, des tables de correspondance comme une liste des communes), placez-les dans le sous-dossier "donnees_partageables". Ces données seront sauvegardées dans le dépôt Gitea et seront disponibles pour tous les utilisateurs du projet.
+Les données sensibles, volumineuses, ou spécifiques à l'utilisateur doivent être placées dans le sous-dossier "donnees_non_partageables" pour garantir leur confidentialité et éviter qu'elles ne soient incluses dans le dépôt. La majorité des données se trouveront ici !
+Données externes : Si vos données sont stockées ailleurs (par exemple dans une base SQL ou un dossier partagé), et que vous ne pouvez ou ne souhaitez pas les inclure directement dans ce projet R, vous pouvez ignorer ce dossier 02_donnees. Assurez-vous cependant de bien gérer les chemins d'accès dans votre code, car vous ne pourrez pas utiliser le package {here} pour simplifier les chemins relatifs.
+
+Gestion des chemins : Lorsque vous travaillez avec des données externes, utilisez des chemins d'accès dynamiques et configurez-les dans un fichier de paramètres si possible. Cela facilite la portabilité du projet pour d'autres utilisateurs qui pourraient avoir des chemins d'accès différents.
+
+Remarque sur le fichier .gitignore
+Le fichier .gitignore spécifie quels fichiers ou dossiers Git doit ignorer et ne pas suivre dans le dépôt. Cela empêche d’ajouter au suivi de version des fichiers temporaires, sensibles, ou spécifiques à l’environnement, comme des fichiers de configuration, de cache ou de compilation. Dans ce projet, le dossier 02_donnees est ignoré (sauf "donnees_partageables") pour s’assurer que les données brutes ne sont pas poussées vers le dépôt Gitea.
+
