@@ -1,0 +1,18 @@
+Dossier 03_exports
+
+*** Structure du Dossier ***
+
+Le dossier est organisé en sous-dossiers selon le type de contenu exporté :
+
+donnees/ : contient les fichiers de données exportées finaux. Par exemple, le fichier donnees_finales.csv représente le jeu de données finalisé après toutes les étapes de traitement.
+
+figures/ : contient les graphiques ou visualisations générés lors de l'analyse. Les figures sont nommées de manière explicite (ex : figure_01_titre.svg pour permettre de comprendre le contenu sans avoir à ouvrir chaque fichier !).
+
+*** Utilisation ***
+
+Les fichiers contenus dans donnees/ et figures/ sont générés automatiquement par les scripts de 01_code. Idéalement, ils ne doivent pas être modifiés manuellement. Idéalement, toute modification doit être faite dans le code source.
+
+*** Remarques ***
+
+Veillez à ne pas ajouter de données brutes ou de fichiers temporaires dans ce dossier. Ces derniers doivent rester dans 02_donnees ou dans des dossiers spécifiques aux données intermédiaires si nécessaire.
+Les noms des fichiers doivent être explicites pour faciliter leur réutilisation et leur interprétation. Assurez-vous de les nommer avec des préfixes ou des suffixes significatifs (ex : donnees_finales_{date}.csv).
