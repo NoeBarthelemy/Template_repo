@@ -1,0 +1,21 @@
+Dossier 04_rapports
+
+Ce dossier contient les rapports générés à partir des analyses et traitements effectués dans le projet. Ces rapports peuvent inclure des visualisations, des résumés de données, des conclusions, et toute autre information destinée à être communiquée aux parties prenantes.
+On peut les inclure dans le dépôt gitea car, d'une certaine manière, cela documente le projet. Cela dit, si vous voulez les exclure, vous pouvez ajouter "04_rapports" au fichier gitignore.  
+
+*** Structure du Dossier ***
+
+Les rapports sont classés en sous-dossiers pour faciliter leur organisation :
+
+Rapports intermédiaires : Regroupe les rapports produits au cours du projet, souvent pour vérifier les résultats ou pour des validations intermédiaires.
+Rapports finaux : Contient les rapports finaux destinés à être partagés avec les utilisateurs ou les partenaires.
+Graphiques et visualisations : Les graphiques et figures non inclus dans les rapports finaux peuvent être placés ici pour faciliter leur réutilisation.
+Utilisation
+Les rapports peuvent être générés automatiquement par les scripts de 01_code ou être créés manuellement en fonction des besoins.
+Chaque fichier de rapport doit être nommé de manière explicite pour refléter son contenu et sa version, par exemple, Rapport_final_analyse_2023.pdf ou Intermediaire_01_exploration.docx.
+
+*** Bonnes pratiques ***
+
+Noms des fichiers : Utilisez des noms de fichiers explicites et, si nécessaire, incluez des dates ou des versions pour identifier facilement les différentes itérations.
+Formats de fichiers : Les rapports finaux sont souvent exportés en .pdf ou .html ou .docx pour faciliter la lecture et le partage. Les rapports intermédiaires peuvent rester en .Rmd ou être sauvegardés dans le format le plus utile pour le projet.
+
