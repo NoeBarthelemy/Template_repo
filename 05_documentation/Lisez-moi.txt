@@ -1,0 +1,27 @@
+Dossier 05_documentation
+
+Ce dossier regroupe toute la documentation liée aux aspects métier du projet. Il sert de référence pour les utilisateurs finaux, les analystes, et les parties prenantes, offrant des explications sur les objectifs, les données utilisées, et les méthodologies d'analyse appliquées.
+
+Ce dossier peut également contenir des documents externes, qui sont utiles à votre projet (par exemple, un rapport de l'INSEE sur lequel on se base, notre compte rendu de l'année dernière etc. Bref, de la doc' quoi !). 
+Idéalement, si le travail a été fait, inclure le document de description du processus !
+
+
+*** Contenu Typique ***
+
+--- Le travail de documentation mentionné ci-dessous DOIT être fait dans les scripts, mais rien ne vous empêche de créer des documents supplémentaires ---
+
+Objectifs du projet : Peut être un document expliquant le contexte et les finalités du projet, ainsi que les questions métiers auxquelles il répond.
+
+Documentation des données : Détails sur les sources de données, les transformations appliquées, la signification des variables clés, et les éventuelles limites des données.
+
+Méthodologie d'analyse : Description des approches analytiques et des étapes méthodologiques utilisées pour répondre aux objectifs métiers. 
+
+Rapport d'interprétation des résultats : Un guide pour interpréter les résultats et comprendre comment les conclusions peuvent éclairer les décisions métiers.
+
+*** Bonnes pratiques *** 
+
+Clarté et accessibilité : Rédigez les documents en évitant le jargon technique, pour une meilleure compréhension par les utilisateurs non spécialisés.
+
+Mises à jour régulières : Mettez à jour la documentation dès que des changements significatifs sont apportés aux objectifs, aux méthodologies, ou aux sources de données pour maintenir la pertinence des informations.
+
+Formatage : Utilisez des formats comme .md (Markdown) pour une consultation en ligne ou .pdf pour des rapports formels afin de garantir une lecture facile sur différents supports.
